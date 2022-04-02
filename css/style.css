@@ -471,9 +471,11 @@ input[type="radio"]:not(:checked) + label:after {
 
 .header-logo a {
   padding: 0;
+  font-size: 18px;
 }
 .navbar .menu a {
   padding: 0 8px;
+  font-size: 18px;
 }
 .navbar .menu .active {
   font-weight: 900;
@@ -487,7 +489,7 @@ input[type="radio"]:not(:checked) + label:after {
   background-color: transparent;
 }
 header label {
-  margin-left: 15px;
+  margin-left: 0px;
   position: relative;
   -webkit-transform: translateY(0.1em) translateX(0.5em);
 }
@@ -603,7 +605,7 @@ header label {
   cursor: pointer;
 }
 .nickname {
-  font-size: 2em;
+  font-size: 25px;
   font-weight: normal;
 }
 .links a {
@@ -621,11 +623,14 @@ header label {
   max-width: 780px;
   margin: 0 auto;
   padding-top: 2rem;
+  font-size: 20px;
 }
 .post-wrap .archive-item {
   margin-left: 2rem;
 }
 .archive-item-link {
+  font-size: 20px;
+  line-height: 30px;
   display: inline-block;
   text-decoration: none;
   overflow: hidden;
@@ -724,7 +729,7 @@ header label {
   margin: 0 !important;
 }
 .post-wrap .post-title {
-  font-size: 2em;
+  font-size: 25px;
   line-height: 1.5em;
 }
 .post-wrap .post-meta {
@@ -748,6 +753,8 @@ header label {
 .post-content {
   padding-top: 2rem;
   text-align: justify;
+  font-size: 17px;
+  line-height: 20px;
 }
 .post-content h2,
 .post-content h3,
@@ -805,7 +812,7 @@ header label {
 .post-content code,
 .post-content pre {
   padding: 7px;
-  font-size: 13px;
+  font-size: 16px;
   font-family: Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .post-content code {
